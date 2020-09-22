@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+}#head{
+    padding:10vh;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    opacity: 0.8;
+
+    background-color: bisque;
+    border-radius: 200px;
+    width: 20vw;
+    
+
+}
+body{
+    background-image: url('../joke.png') ;
+    background-size: cover;
+   background-attachment:fixed;
+
+}
+#butt{
+    font-size: 30px;
+    width: 20vw;
+    height:10vh;
+    margin-top:4vh ;
+    border-radius: 50px;
+
+
+}
+.swal-overlay {
+    background-color: rgba(43, 165, 137, 0.068);
+}
+
+.swal{
+    font-family: 'Tajawal', sans-serif;
+}
+#container{
+    font-family: 'Tajawal', sans-serif;
+opacity: 0.7;
+background-color: blanchedalmond;
+width: 70%;
+}
+
+
