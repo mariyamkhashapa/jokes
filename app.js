@@ -1,14 +1,11 @@
-// swal("اضحك من قلبك", {
-//     buttons: false,
-//     timer: 2000,
-//   });
-const button =document.getElementById("butt");
-const cont=document.getElementById("container")
+
+var button =document.getElementById("butt");
+var cont=document.getElementById("container")
 button.addEventListener("click", addJoke);
 function addJoke(){
-    console.log("the button is clicked")
-    let xhr= new XMLHttpRequest()
-    console.log(xhr)
+    // console.log("the button is clicked")
+   var xhr = new XMLHttpRequest()
+    // console.log(xhr)
     xhr.open('GET','jokes.json')
     xhr.onload= function(){
         if (xhr.status === 200){

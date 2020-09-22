@@ -15,7 +15,7 @@
 
 }
 body{
-    background-image: url('../joke.png') ;
+    background-image: url("joke.png") ;
     background-size: cover;
    background-attachment:fixed;
 
